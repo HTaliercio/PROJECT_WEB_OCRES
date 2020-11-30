@@ -1,13 +1,9 @@
-# Frontend
 
-Ce dossier contiendra la partie frontend de votre projet.
 
-Le frontend à été initalisé avec un create-react-app et sotrybook y est deja installé avec un exemple de stories que vous trouverez dans le repertoire `src/stories`.
 
-Storybook est là pour vous aider à prototyper et documenter vos composants. Si nous n'arrivons pas à lancer votre projet, nous pourrons au moins regarder vos composants en fonctionnement.
+Nous avons rencontré des problèmes après avoir essayé de faire marcher storybook, en effet cela avait comme effet de mettre à jour un composant indésirable qui nous empêchait de compiler notre code après coup...
+Notre page admin n'est pas prête donc nous n'avons pas jugé nécessaire de l'inclure, c'est juste une page avec quelques forms.
 
-## Documentation
+Nous avons utilisé Bootstrap et KendoReact
 
-Vous pourrez supprimer le contenu de ce README et vous l'approprier en y notant les éléments importants de votre projet. Il est très important de bien documenter un projet !
-
-Inspirez-vous des grands repos open sources qui existent sur github. Les informations qui reviennent souvent sont une description du projet (pourquoi, comment...), la maniere de lancer le projet et eventuellement d'y contribuer, une documentation sur des éléments que vous voulez mettre en avant et pour finir les noms des contributeurs.
+yarn adds nécessaires à notre projet : yarn add @progress/kendo-theme-material @progress/kendo-react-layout @progress/kendo-react-pdf @progress/kendo-drawing @progress/kendo-react-buttons @progress/kendo-react-ripple bootstrap-4-grid @progress/kendo-react-ripple @progress/kendo-react-dialogs @progress/kendo-react-inputs @progress/kendo-react-intl @progress/kendo-react-charts hammerjs @progress/kendo-data-query @progress/kendo-react-dateinputs @progress/kendo-react-dropdowns @progress/kendo-react-grid @progress/kendo-react-inputs @progress/kendo-react-intl @progress/kendo-react-data-tools @progress/kendo-react-layout
